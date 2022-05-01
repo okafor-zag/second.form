@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(20, 78, 85, 0.974);
+    line-height: 0.9em;
+    font-family:Helvetica, tahoma, san-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width:50%;
+    padding: 16px;
+    background-color:white;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.7);
+
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        min-width: 70%;
+    }
+}
+
+ img{
+    margin-left: auto;
+    display: block;
+    width:150px;
+}
+
+input[type="text"],
+input[type="password"] {
+
+    width:100%;
+    padding: 15px;
+    margin:5px 0 22px 0;
+    display: inline-block;
+    border:none;
+    background:whitesmoke;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ddd;
+    outline:none;
+}
+
+.registration{
+    background-color:rgba(20, 78, 85, 0.974);
+    color:white;
+    padding:16px;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.registration:hover{
+    opacity:1;
+}
+
